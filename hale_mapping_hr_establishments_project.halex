@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<hale-project version="3.5.0.release">
+    <name>Production facilties - Croatia</name>
+    <author>mozolik</author>
+    <created>2019-03-19T14:42:24.421+01:00</created>
+    <modified>2019-03-19T16:07:53.054+01:00</modified>
+    <save-config action-id="project.save" provider-id="eu.esdihumboldt.hale.io.project.hale25.xml.writer">
+        <setting name="charset">UTF-8</setting>
+        <setting name="projectFiles.separate">false</setting>
+        <setting name="contentType">eu.esdihumboldt.hale.io.project.hale25.xml</setting>
+        <setting name="target">file:/home/mozolik/dev/hale/PF_HR/HR_ProductionFacilities.halex</setting>
+    </save-config>
+    <resource action-id="eu.esdihumboldt.hale.io.schema.read.source" provider-id="eu.esdihumboldt.hale.io.shape.reader.schema">
+        <setting name="charset">ISO-8859-2</setting>
+        <setting name="resourceId">58a8513e-ce63-4c35-8463-df8371e90e40</setting>
+        <setting name="source">file:/home/mozolik/dev/hale/PF_HR/shapefiles/bifisic_geo_establishment/bifisic_geo_establishmentPoint.shp</setting>
+        <setting name="contentType">eu.esdihumboldt.hale.io.shp</setting>
+        <cache>
+            <hsd:schema xmlns:hsd="http://www.esdi-humboldt.eu/hale/schema" namespace="http://www.esdi-humboldt.eu/hale/shp">
+                <hsd:type-index>
+                    <hsd:entry index="0">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">address</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="1">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">bifisic_geo_establishmentPoint</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="2">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">centarkoor</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="3">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">core_activ</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="4">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">data_mapp</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="5">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">des_admin_</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="6">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">des_county</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="7">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">des_munici</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="8">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">des_status</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="9">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">eprtr</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="10">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">establishm</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="11">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">flag_other</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="12">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_admin_p</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="13">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_caen</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="14">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_company</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="15">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_county</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="16">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_municip</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="17">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_sub_act</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="18">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">ied</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="19">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">name_other</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="20">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">notificati</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="21">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">oib</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="22">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">oib_other_</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="23">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">other_emai</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="24">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">other_fax</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="25">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">other_name</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="26">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">other_phon</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="27">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">other_posi</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="28">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">Point</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="29">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">postal_cod</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="30">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_leg_0</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="31">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_leg_e</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="32">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_leg_f</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="33">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_leg_n</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="34">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_leg_p</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="35">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_unev0</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="36">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_unev1</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="37">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_unev2</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="38">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_unev3</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="39">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_uneve</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="40">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">status_est</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="41">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">sub_activi</hsd:name>
+                    </hsd:entry>
+                    <hsd:entry index="42">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">surroundin</hsd:name>
+                    </hsd:entry>
+                </hsd:type-index>
+                <hsd:mapping-relevant>1</hsd:mapping-relevant>
+                <hsd:types>
+                    <hsd:type index="0">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">address</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="1">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">bifisic_geo_establishmentPoint</hsd:name>
+                        <hsd:constraint type="abstract" value="false"/>
+                        <hsd:constraint type="binding" value="eu.esdihumboldt.hale.common.instance.model.Instance"/>
+                        <hsd:constraint type="has-value" value="false"/>
+                        <hsd:constraint type="mappable" value="true"/>
+                        <hsd:constraint type="mapping-relevant" value="true"/>
+                        <hsd:declares>
+                            <hsd:property>
+<hsd:name>the_geom</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="28"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>oib</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="21"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>establishm</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="10"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>address</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="0"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>id_municip</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="16"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>des_munici</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="7"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>postal_cod</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="29"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>id_county</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="15"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>des_county</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="6"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>surroundin</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="42"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>flag_other</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="11"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>oib_other_</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="22"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>name_other</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="19"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>notificati</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="20"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>centarkoor</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="2"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>id_sub_act</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="17"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>sub_activi</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="41"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>core_activ</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="3"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>status_est</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="40"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>des_status</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="8"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>id_caen</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="13"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>id_admin_p</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="12"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>des_admin_</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="5"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>eprtr</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="9"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>ied</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="18"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>resp_leg_p</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="34"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>resp_leg_n</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="33"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>resp_leg_0</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="30"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>resp_leg_f</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="32"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>resp_leg_e</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="31"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>resp_uneve</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="39"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>resp_unev0</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="35"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>resp_unev1</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="36"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>resp_unev2</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="37"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>resp_unev3</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="38"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>other_posi</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="27"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>other_name</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="25"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>other_phon</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="26"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>other_fax</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="24"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>other_emai</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="23"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>id_company</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="14"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name>data_mapp</hsd:name>
+<hsd:constraint type="cardinality" value="0..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType index="4"/>
+                            </hsd:property>
+                            <hsd:property>
+<hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp/augment">filename</hsd:name>
+<hsd:constraint type="cardinality" value="1..1"/>
+<hsd:constraint type="nillable" value="true"/>
+<hsd:propertyType>
+    <hsd:type>
+        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp/augment">filenameType</hsd:name>
+        <hsd:constraint type="binding" value="java.lang.String"/>
+        <hsd:constraint type="has-value" value="true"/>
+        <hsd:constraint type="mappable" value="false"/>
+        <hsd:constraint type="mapping-relevant" value="false"/>
+    </hsd:type>
+</hsd:propertyType>
+                            </hsd:property>
+                        </hsd:declares>
+                    </hsd:type>
+                    <hsd:type index="2">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">centarkoor</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.Integer"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="3">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">core_activ</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="4">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">data_mapp</hsd:name>
+                        <hsd:constraint type="binding" value="java.sql.Timestamp"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="5">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">des_admin_</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="6">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">des_county</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="7">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">des_munici</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="8">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">des_status</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="9">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">eprtr</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="10">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">establishm</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="11">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">flag_other</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="12">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_admin_p</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.Integer"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="13">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_caen</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="14">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_company</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.Integer"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="15">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_county</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.Integer"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="16">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_municip</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.Integer"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="17">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">id_sub_act</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="18">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">ied</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="19">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">name_other</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="20">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">notificati</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="21">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">oib</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="22">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">oib_other_</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="23">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">other_emai</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="24">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">other_fax</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="25">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">other_name</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="26">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">other_phon</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="27">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">other_posi</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="28">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">Point</hsd:name>
+                        <hsd:constraint type="binding" value="eu.esdihumboldt.hale.common.schema.geometry.GeometryProperty"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="29">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">postal_cod</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="30">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_leg_0</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="31">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_leg_e</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="32">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_leg_f</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="33">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_leg_n</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="34">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_leg_p</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="35">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_unev0</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="36">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_unev1</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="37">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_unev2</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="38">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_unev3</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="39">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">resp_uneve</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="40">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">status_est</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.Integer"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="41">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">sub_activi</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                    <hsd:type index="42">
+                        <hsd:name namespace="http://www.esdi-humboldt.eu/hale/shp">surroundin</hsd:name>
+                        <hsd:constraint type="binding" value="java.lang.String"/>
+                        <hsd:constraint type="has-value" value="true"/>
+                        <hsd:constraint type="mappable" value="false"/>
+                        <hsd:constraint type="mapping-relevant" value="false"/>
+                    </hsd:type>
+                </hsd:types>
+            </hsd:schema>
+        </cache>
+    </resource>
+    <resource action-id="eu.esdihumboldt.hale.io.schema.read.target" provider-id="eu.esdihumboldt.hale.io.xsd.reader">
+        <setting name="charset">UTF-8</setting>
+        <setting name="onlyElementsMappable">true</setting>
+        <setting name="resourceId">1c54efe0-7e48-417a-8c1d-8e69049ec4f3</setting>
+        <setting name="source">http://inspire.ec.europa.eu/schemas/pf/4.0/ProductionAndIndustrialFacilities.xsd</setting>
+        <setting name="contentType">eu.esdihumboldt.hale.io.xsd</setting>
+    </resource>
+    <resource action-id="eu.esdihumboldt.hale.io.instance.read.source" provider-id="eu.esdihumboldt.hale.io.shape.reader.instance">
+        <setting name="charset">ISO-8859-2</setting>
+        <setting name="matchShortPropertyNames">false</setting>
+        <setting name="resourceId">6d30f660-f44c-44ad-8219-3934af8a7859</setting>
+        <setting name="source">shapefiles/bifisic_geo_establishment/bifisic_geo_establishmentPoint.shp</setting>
+        <setting name="contentType">eu.esdihumboldt.hale.io.shp</setting>
+        <setting name="typename">{http://www.esdi-humboldt.eu/hale/shp}bifisic_geo_establishmentPoint</setting>
+    </resource>
+    <file name="alignment.xml" location="HR_ProductionFacilities.halex.alignment.xml"/>
+    <file name="styles.sld" location="HR_ProductionFacilities.halex.styles.sld"/>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/act-core/4.0}ActivityComplexType/1">{http://inspire.ec.europa.eu/schemas/act-core/4.0}geometry</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/act-core/4.0}ActivityComplexType/2">{http://www.opengis.net/gml/3.2/AbstractGeometry}choice</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/act-core/4.0}ActivityComplexType/count">2</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0/ProductionFacilityType/hostingSite}AnonymousType/1">{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionSite</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0/ProductionFacilityType/hostingSite}AnonymousType/2">{http://inspire.ec.europa.eu/schemas/pf/4.0}geometry</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0/ProductionFacilityType/hostingSite}AnonymousType/3">{http://www.opengis.net/gml/3.2}MultiSurface</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0/ProductionFacilityType/hostingSite}AnonymousType/count">3</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionBuildingType/1">{http://inspire.ec.europa.eu/schemas/pf/4.0}geometry</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionBuildingType/2">{http://www.opengis.net/gml/3.2/AbstractGeometry}choice</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionBuildingType/count">2</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionFacilityType/1">{http://inspire.ec.europa.eu/schemas/act-core/4.0}geometry</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionFacilityType/2">{http://www.opengis.net/gml/3.2/AbstractGeometry}choice</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionFacilityType/count">2</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionInstallationPartType/1">{http://inspire.ec.europa.eu/schemas/pf/4.0}pointGeometry</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionInstallationPartType/2">{http://www.opengis.net/gml/3.2}Point</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionInstallationPartType/count">2</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionInstallationType/1">{http://inspire.ec.europa.eu/schemas/pf/4.0}pointGeometry</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionInstallationType/2">{http://www.opengis.net/gml/3.2}Point</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionInstallationType/count">2</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionPlotType/1">{http://inspire.ec.europa.eu/schemas/pf/4.0}geometry</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionPlotType/2">{http://www.opengis.net/gml/3.2/AbstractSurface}choice</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionPlotType/count">2</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionSiteType/1">{http://inspire.ec.europa.eu/schemas/pf/4.0}geometry</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionSiteType/2">{http://www.opengis.net/gml/3.2}MultiSurface</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}ProductionSiteType/count">2</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}TechnicalUnitType/1">{http://www.opengis.net/gml/3.2}boundedBy</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}TechnicalUnitType/2">{http://www.opengis.net/gml/3.2/BoundingShapeType}choice_1</property>
+    <property name="defaultGeometry:{http://inspire.ec.europa.eu/schemas/pf/4.0}TechnicalUnitType/count">2</property>
+    <property name="defaultGeometry:{http://www.esdi-humboldt.eu/hale/shp}bifisic_geo_establishmentPoint/1">the_geom</property>
+    <property name="defaultGeometry:{http://www.esdi-humboldt.eu/hale/shp}bifisic_geo_establishmentPoint/count">1</property>
+    <property name="defaultGeometry:{http://www.opengis.net/gml/3.2}BoundingShapeType/1">{http://www.opengis.net/gml/3.2/BoundingShapeType}choice_1</property>
+    <property name="defaultGeometry:{http://www.opengis.net/gml/3.2}BoundingShapeType/count">1</property>
+    <property name="defaultGeometry:{http://www.opengis.net/gml/3.2}GeometryPropertyType/1">{http://www.opengis.net/gml/3.2/AbstractGeometry}choice</property>
+    <property name="defaultGeometry:{http://www.opengis.net/gml/3.2}GeometryPropertyType/count">1</property>
+    <property name="instances.sampling.enabled">true</property>
+    <property name="instances.sampling.ov_complete">true</property>
+    <property name="instances.sampling.sampler">first</property>
+    <property name="instances.sampling.settings.first">50</property>
+    <property name="instances.sampling.settings.skip">10</property>
+    <complex-property name="variables">
+        <core:properties xmlns:core="http://www.esdi-humboldt.eu/hale/core">
+            <core:property name="INSPIREID_NAMESPACE">
+                <core:value value="http://hr_pf_namespace"/>
+            </core:property>
+        </core:properties>
+    </complex-property>
+</hale-project>
